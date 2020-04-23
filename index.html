@@ -3,7 +3,9 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
   <title>My Resume</title>
 
   <link rel="stylesheet" href="css/index.css">
@@ -14,6 +16,71 @@
 </head>
 
 <body>
-  <h1>My Resume</h1>
+  <h1>Jaks Resume</h1>
+  <header>
+    <div class="my-nav">
+     <nav>
+        <a href="#">About</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+    </nav>
+  </div>
+    <section class="intro">
+      <div >
+          <h2>Hello!</h2>
+          <p>Welcone to my resume page with all the info about me.</p>
+      </div>     
+  </section>
+  <section class="middle">
+
+    <div>
+        <h2>Skills</h2>
+        <p>Skills i have gained over the years.</p>
+        <ul >
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Java</li>
+          <li>React</li>
+        </ul> 
+    
+        <h2>Work History</h2>
+        <p>Past and present job history.</p>
+        <ul >
+          <li>Intel</li>
+          <li>Google</li>
+          <li>Microsoft</li>
+        </ul> 
+             
+    </div>
+   </section>
+
+    
+
+ <div class="contact">
+   <div>
+     <h3>Contact Form</h3>
+    </div>
+  
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:60px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+ </div>
+<footer>
+<h2> Jaks 2020 </h2>
+</footer>
+
+
 </body>
 </html>
